@@ -32,7 +32,6 @@
 - [Buyer Segments Discovered](#-buyer-segments-discovered)
 - [Key Insights](#-key-insights)
 - [Project Structure](#-project-structure)
-- [Installation & Usage](#-installation--usage)
 - [Streamlit Dashboard](#-streamlit-dashboard)
 - [Results & Metrics](#-results--metrics)
 - [Future Improvements](#-future-improvements)
@@ -46,6 +45,10 @@ This project applies **K-Means** and **Hierarchical Clustering** to segment Parc
 
 > **TL;DR:** Clean data → encode features → scale → cluster → interpret → dashboard.
 > Four buyer types emerge, each with distinct investment behaviour, geography, and financing patterns.
+
+---
+
+The app opens at: https://s4or2hnl4bhqc96mqxbjbd.streamlit.app/
 
 ---
 
@@ -283,33 +286,6 @@ parcl-buyer-segmentation/
 
 ---
 
-## ⚙️ Installation & Usage
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/parcl-buyer-segmentation.git
-cd parcl-buyer-segmentation
-```
-
-### 2. Install dependencies
-```bash
-pip install pandas numpy scikit-learn scipy matplotlib seaborn plotly streamlit
-```
-
-### 3. Run the full ML pipeline
-```bash
-python parcl_segmentation.py
-```
-This will clean and merge both datasets, run K-Means (k=4) and Hierarchical Clustering, and generate all 10 visualisation outputs into the `outputs/` folder.
-
-### 4. Launch the Streamlit dashboard
-```bash
-streamlit run app.py
-```
-Open `http://localhost:8501` in your browser.
-
----
-
 ## 🌐 Streamlit Dashboard
 
 Four interactive tabs with real-time sidebar filtering by **Country**, **Region**, **Acquisition Purpose**, and **Client Type**:
@@ -361,11 +337,3 @@ Four interactive tabs with real-time sidebar filtering by **Country**, **Region*
 | **Evaluation** | Silhouette Score, Davies-Bouldin Score, Elbow Method |
 
 ---
-
-<div align="center">
-
-**Built during a Data Science Internship with Parcl**
-
-*If you found this useful, consider leaving a ⭐*
-
-</div>
