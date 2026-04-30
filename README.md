@@ -337,3 +337,5 @@ Four interactive tabs with real-time sidebar filtering by **Country**, **Region*
 | **Evaluation** | Silhouette Score, Davies-Bouldin Score, Elbow Method |
 
 ---
+---
+Internship project — Parcl · 2026
